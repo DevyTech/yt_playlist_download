@@ -6,7 +6,7 @@ if __name__ == '__main__':
     video_info = YoutubeDL().extract_info(url=video_url, download=False)
 
     # Tentukan folder keluaran
-    output_folder = r"C:\Users\SMK NEGERI 2 MANADO\Music\Avenged Sevenfold LBC"
+    output_folder = r"C:\Users\SMK NEGERI 2 MANADO\Music"
 
     # Pastikan folder keluaran ada
     if not os.path.exists(output_folder):
